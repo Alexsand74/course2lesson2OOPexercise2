@@ -1,4 +1,4 @@
-public class Truck extends Car implements ServiceStationInterfase {
+public class Truck extends Car  {
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
