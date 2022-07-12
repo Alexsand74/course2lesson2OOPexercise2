@@ -6,7 +6,7 @@ public class Bicycle extends TransportAbstract {
 
     @Override
     public void check() {
-        this.comparison(this);
+        this.comparison();
     }
  }
 

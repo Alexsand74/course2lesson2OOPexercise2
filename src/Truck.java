@@ -9,7 +9,7 @@ public class Truck extends Car {
 
     @Override
     public void check() {
-          this.comparison(this);
+          this.comparison();
             this.checkEngine();
             this.checkTrailer();
         }

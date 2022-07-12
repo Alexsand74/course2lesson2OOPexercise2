@@ -21,7 +21,8 @@ public abstract class TransportAbstract implements ServiceStationInterfase {
         System.out.print(" Меняем покрышку ");
     }
 
-     void comparison (TransportAbstract value ) {
+     void comparison ( ) {
+         TransportAbstract value = TransportAbstract.this;
         if (value != null) {
             System.out.println();
             System.out.println("Обслуживаем " + value.getModelName());

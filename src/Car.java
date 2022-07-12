@@ -8,7 +8,7 @@ public class Car extends Bicycle  {
     }
     @Override
     public void check() {
-        this.comparison(this);
+        this.comparison();
             this.checkEngine();
             }
 }
