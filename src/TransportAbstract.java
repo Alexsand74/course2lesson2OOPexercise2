@@ -1,31 +1,31 @@
-public abstract class Transport implements ServiceStationInterfase {
+public abstract class TransportAbstract implements ServiceStationInterfase {
     private final String modelName;
     private final int wheelsCount;
 
-    public Transport(String modelName, int wheelsCount) {
+    public TransportAbstract(String modelName, int wheelsCount) {
         this.modelName = modelName;
         if (wheelsCount > 0){
         this.wheelsCount = wheelsCount;}
         else { this.wheelsCount = 0; }
     }
 
-    public String getModelName() {
+     String getModelName() {
         return modelName;
     }
 
-    public int getWheelsCount() {
+     int getWheelsCount() {
         return wheelsCount;
     }
 
-    public void updateTyre() {
+     void updateTyre() {
         System.out.print(" Меняем покрышку ");
     }
 
-    public void comparison (Transport value ) {
+     void comparison (TransportAbstract value ) {
         if (value != null) {
             System.out.println();
             System.out.println("Обслуживаем " + value.getModelName());
-            for (int i = 0; i < this.getWheelsCount(); i++) {
+            for (int i = 0; i < value.getWheelsCount(); i++) {
                 value.updateTyre();
             }
         }
