@@ -1,6 +1,5 @@
 public interface ServiceStationInterfase {
-     default void check() {
-
+    default void check() {
     }
 
 }

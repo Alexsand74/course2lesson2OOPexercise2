@@ -8,13 +8,9 @@ public class Car extends Bicycle  {
     }
     @Override
     public void check() {
-        if (this != null) {
-            System.out.println("Обслуживаем " + this.getModelName());
-            for (int i = 0; i < this.getWheelsCount(); i++) {
-                this.updateTyre();
-            }
+        this.comparison(this);
             this.checkEngine();
             }
-    }
-
 }
+
+

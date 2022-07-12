@@ -13,16 +13,8 @@ public class Main {
                  new Truck("truck2", 8),
         };
 
-    for (ServiceStationInterfase type : transportTehno) {
+        for (ServiceStationInterfase type : transportTehno) {
         type.check();
-    }
-//        car.check();
-//        car2.check();
-//        bicycle3.check();
-//        bicycle.check();
-//        bicycle2.check();
-//        truck.check();
-//        truck2.check();
-
+        }
     }
 }

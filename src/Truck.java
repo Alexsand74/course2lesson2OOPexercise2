@@ -1,20 +1,19 @@
-public class Truck extends Car  {
+public class Truck extends Car {
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
 
-      public void checkTrailer() {
+    public void checkTrailer() {
         System.out.println("Проверяем прицеп");
     }
+
     @Override
     public void check() {
-       if (this != null) {
-           System.out.println("Обслуживаем " + this.getModelName());
-           for (int i = 0; i < this.getWheelsCount(); i++) {
-               this.updateTyre();
-           }
-           this.checkEngine();
-           this.checkTrailer();
-       }
-    }
-}
+          this.comparison(this);
+            this.checkEngine();
+            this.checkTrailer();
+        }
+ }
+
+
+
