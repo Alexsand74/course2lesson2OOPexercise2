@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        ServiceStationInterfase[] transportTehno = new ServiceStationInterfase[] {
+        ServiceStation[] transportTehno = new ServiceStation[] {
                  new Bicycle("bicycle1", 2),
                  new Bicycle("bicycle2", 2),
                  new Bicycle("bicycle3", -1),
@@ -13,7 +13,7 @@ public class Main {
                  new Truck("truck2", 8),
         };
 
-        for (ServiceStationInterfase type : transportTehno) {
+        for (ServiceStation type : transportTehno) {
         type.check();
         }
     }

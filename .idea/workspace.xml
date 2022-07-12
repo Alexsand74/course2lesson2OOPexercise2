@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33090cd0-5fc5-4612-92bc-8de577d0e5d8" name="Changes" comment="2.2. ООП часть 2. Интерфейсы и полиморфизм Домашнее задание последнее и улучшенное">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="33090cd0-5fc5-4612-92bc-8de577d0e5d8" name="Changes" comment="2.2. ООП часть 2. Интерфейсы и полиморфизм Домашнее задание последнее и улучшенное*">
+      <change afterPath="$PROJECT_DIR$/src/ServiceStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TransportAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TransportAbstract.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,6 +68,8 @@
       <updated>1657569952194</updated>
       <workItem from="1657569953625" duration="11609000" />
       <workItem from="1657586108018" duration="2046000" />
+      <workItem from="1657601656647" duration="3049000" />
+      <workItem from="1657613625235" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="2.2. ООП часть 2. Интерфейсы и полиморфизм Домашнее задание">
       <created>1657570120414</created>
@@ -111,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657587991044</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2.2. ООП часть 2. Интерфейсы и полиморфизм Домашнее задание последнее и улучшенное*">
+      <created>1657601908627</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657601908627</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +141,7 @@
     <MESSAGE value="2.2. ООП часть 2. Интерфейсы и полиморфизм Домашнее задание" />
     <MESSAGE value="2.2. ООП часть 2. Интерфейсы и полиморфизм Домашнее задание последнее" />
     <MESSAGE value="2.2. ООП часть 2. Интерфейсы и полиморфизм Домашнее задание последнее и улучшенное" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.2. ООП часть 2. Интерфейсы и полиморфизм Домашнее задание последнее и улучшенное" />
+    <MESSAGE value="2.2. ООП часть 2. Интерфейсы и полиморфизм Домашнее задание последнее и улучшенное*" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.2. ООП часть 2. Интерфейсы и полиморфизм Домашнее задание последнее и улучшенное*" />
   </component>
 </project>

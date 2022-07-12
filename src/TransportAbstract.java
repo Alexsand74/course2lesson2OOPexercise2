@@ -1,4 +1,4 @@
-public abstract class TransportAbstract implements ServiceStationInterfase {
+public abstract class TransportAbstract extends ServiceStation {
     private final String modelName;
     private final int wheelsCount;
 
