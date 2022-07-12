@@ -20,6 +20,13 @@ public abstract class TransportAbstract extends ServiceStation {
      void updateTyre() {
         System.out.print(" Меняем покрышку ");
     }
+    public void checkEngine() {
+        System.out.println("Проверяем двигатель");
+    }
+
+    public void checkTrailer() {
+        System.out.println("Проверяем прицеп");
+    }
 
      void comparison ( ) {
          TransportAbstract value = TransportAbstract.this;
